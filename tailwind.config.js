@@ -1,11 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ["index.html"],
   theme: {
     extend: {
-      fontFamily: {
-        sacramento: ['Sacramento', 'cursive'],
-        roboto: ['Roboto', 'sans-serif'],
+      fontFamily : {
+        "Sofia" : ['Sofia Pro Bold'],
+        "Jost"  : ['Jost'],
       },
     },
   },

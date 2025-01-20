@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+
+    @font-face {
+        font-family: 'Sofia Pro Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: url('../public/font/Sofia Pro Bold Az.woff') format('woff');
+        }
+}
+
+
